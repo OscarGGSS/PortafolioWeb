@@ -6,7 +6,7 @@ This repository contains my personal portfolio website, currently under developm
 
 The goal of this project is to create a professional space where I can showcase my projects, technical skills, and academic background as a Computer Science student.
 
-🚧 The website is still in progress and continuously being improved.
+The website is still in progress and continuously being improved.
 
 ### Purpose
 - Present my software development projects
@@ -30,7 +30,7 @@ Este repositorio contiene mi sitio web de portafolio personal, actualmente en de
 
 El objetivo del proyecto es crear un espacio profesional donde pueda mostrar mis proyectos, habilidades técnicas y formación académica como estudiante de Informática.
 
-🚧 El sitio continúa en desarrollo y mejora constante.
+El sitio continúa en desarrollo y mejora constante.
 
 ### Propósito
 - Presentar mis proyectos de desarrollo
