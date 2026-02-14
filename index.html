@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Estructura</title>
+  <link rel="preload" href="css/normalize.css"> <!--!Preload carga las propiedades de la conexion antes de cargar todo lo demas-->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+
+  
+</head> 
+<!--*Style en html
+<style> 
+    h1{
+      text-align: center;
+      text-align: right;
+    }
+
+    h2{
+      text-transform: uppercase;
+    }
+  </style>
+-->
+
+<body>
+  <!--!Header encabezado. Solo debe haber un h1 en toda la página-->
+  <header>
+    <h1 class="titulo">Óscar González Saucedo el crack <span>Web Developer</span></h1>
+    <!--Span es un elemento contenedor en linea generico. Las etiquetas span generalmente envuelven secciones de texto con fines de estilo o para agragar atributos a una seccion-->
+  </header>
+  <!--!Enlances a otros apartados o páginas-->
+
+
+
+  <!--!BARRA DE NAVEGACIÓN------------------------------------------------------------------------------------->
+  <div class="nav-bg border">
+      <nav class="navegacion-principal contenedor ">
+    
+          <a href="" target="_blank">Inicio</a>
+          <a href="/pages/sobreMi.html" target="_blank">Sobre Mi</a>
+          <a href="" target="_blank">Clientes</a>
+          <a href="" target="_blank">Contacto</a>
+        </nav><!--!.navegacion-principal.contenedor-->
+    </div><!--!.nav-bg-->    
+    
+
+    <!--*a*n para sacar la cantidad de etiquetas que quieras-->
+
+    <!--*alt+shift+flecha abajo para duplicar linea-->
+
+  
+  <!--*section de la pagina-->
+  <section class="hero ">
+    <div class="borde contenido-hero">
+      <h2>Desarrollador WEB</h2>
+
+    <div class="borde ubicacion"> <!--Div de ayuda-->
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-google-maps" width="48"
+      height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffec00" fill="none" stroke-linecap="round"
+      stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 9.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
+      <path d="M6.428 12.494l7.314 -9.252" />
+      <path d="M10.002 7.935l-2.937 -2.545" />
+      <path d="M17.693 6.593l-8.336 9.979" />
+      <path
+        d="M17.591 6.376c.472 .907 .715 1.914 .709 2.935a7.263 7.263 0 0 1 -.72 3.18a19.085 19.085 0 0 1 -2.089 3c-.784 .933 -1.49 1.93 -2.11 2.98c-.314 .62 -.568 1.27 -.757 1.938c-.121 .36 -.277 .591 -.622 .591c-.315 0 -.463 -.136 -.626 -.593a10.595 10.595 0 0 0 -.779 -1.978a18.18 18.18 0 0 0 -1.423 -2.091c-.877 -1.184 -2.179 -2.535 -2.853 -4.071a7.077 7.077 0 0 1 -.621 -2.967a6.226 6.226 0 0 1 1.476 -4.055a6.25 6.25 0 0 1 4.811 -2.245a6.462 6.462 0 0 1 1.918 .284a6.255 6.255 0 0 1 3.686 3.092z" />
+        
+        
+    </svg>
+    <p>Nicolas Romero</p>
+  </div><!--!.ubicacion-->
+    <br>
+    <a class="boton" href="">Contactar</a> <!--?Habia puesto la clase boton en el div-->
+      </div> <!--!.Contenido--hero--> 
+  </section><!--!.hero--><!--seccion contenido inicial-->
+
+
+  <!--!INFORMACIÓN DE MIS SERVICIOS------------------------------------------------>
+
+  <main class="contenedor sombra">
+    
+    <!--!Lo más importante de la pagina-->
+    <h2>Mis servicios</h2>
+
+    <div class="borde servicios">
+
+    <section class="servicio">
+      <h3>Diseño WEB</h3>
+      <div class="borde ico">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-palette-off" width="52" height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M15 15h-1a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25a9 9 0 0 1 -6.372 -15.356" />
+          <path d="M8 4c1.236 -.623 2.569 -1 4 -1c4.97 0 9 3.582 9 8c0 1.06 -.474 2.078 -1.318 2.828a4.516 4.516 0 0 1 -1.127 .73" />
+          <path d="M8.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+          <path d="M12.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+          <path d="M16.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+          <path d="M3 3l18 18" />
+        </svg>
+    </div><!--!.ico-->
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus tempore
+        cum ab commodi, labore, velit tempora illum quo accusantium nulla
+        quibusdam in, fugiat ea deserunt sequi quia? Accusantium, repellendus
+        dolor.
+      </p>
+    </section>
+
+    <section class="servicio">
+      <h3>Aplicaciones web</h3> 
+      <div class="borde ico">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-apple" width="52" height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M8.286 7.008c-3.216 0 -4.286 3.23 -4.286 5.92c0 3.229 2.143 8.072 4.286 8.072c1.165 -.05 1.799 -.538 3.214 -.538c1.406 0 1.607 .538 3.214 .538s4.286 -3.229 4.286 -5.381c-.03 -.011 -2.649 -.434 -2.679 -3.23c-.02 -2.335 2.589 -3.179 2.679 -3.228c-1.096 -1.606 -3.162 -2.113 -3.75 -2.153c-1.535 -.12 -3.032 1.077 -3.75 1.077c-.729 0 -2.036 -1.077 -3.214 -1.077z" />
+          <path d="M12 4a2 2 0 0 0 2 -2a2 2 0 0 0 -2 2" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-robot" width="52" height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M6 4m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
+          <path d="M12 2v2" />
+          <path d="M9 12v9" />
+          <path d="M15 12v9" />
+          <path d="M5 16l4 -2" />
+          <path d="M15 14l4 2" />
+          <path d="M9 18h6" />
+          <path d="M10 8v.01" />
+          <path d="M14 8v.01" />
+        </svg>
+    </div><!--!.ico-->
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nobis
+        dignissimos provident ducimus accusantium sapiente ab quam, ad, placeat
+        sint voluptatibus velit illum est officiis quos dolore quibusdam
+        voluptas consequatur.</p>
+    </section>
+    
+  
+
+    <section class="servicio">
+      <h3>E-commerce</h3> 
+      <div class="borde ico">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-visa" width="52" height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M21 15l-1 -6l-2.5 6" />
+          <path d="M9 15l1 -6" />
+          <path d="M3 9h1v6h.5l2.5 -6" />
+          <path d="M16 9.5a.5 .5 0 0 0 -.5 -.5h-.75c-.721 0 -1.337 .521 -1.455 1.233l-.09 .534a1.059 1.059 0 0 0 1.045 1.233a1.059 1.059 0 0 1 1.045 1.233l-.09 .534a1.476 1.476 0 0 1 -1.455 1.233h-.75a.5 .5 0 0 1 -.5 -.5" />
+          <path d="M18 14h2.7" />
+        </svg>
+    </div><!--!.ico-->
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex labore
+        reprehenderit, architecto quaerat consequatur vero minus aliquid, nulla
+        placeat exercitationem provident eos impedit. Maiores nam, reiciendis
+        distinctio esse ullam sapiente? </p>
+      </section>
+    </div><!--!Contenedor servicios-->
+  
+  
+
+
+  <!--!FORMULARIOOOOOOO------------------------------------------>
+  <h2>Contacto</h2>
+  <section class="formulario">
+      <fieldset>
+          <legend>Contactanos llenando el formulario</legend>
+        <div class="borde contenedor-campos">
+        <div class="borde campo">
+          <label for="">Nombre</label>
+          <input class="input-text" type="text" placeholder="Ingresa tu nombre">
+          <!--*placeholder poner instrucciones de como rellenar el formulario-->
+        </div>
+        <div class="borde campo">
+          <label>Telefono</label>
+          <input class="input-text" type="text" placeholder="Ingresa tu numero de telefono">
+        </div>
+        <div class="borde campo">
+          <label>Correo</label>
+          <input class="input-text" type="text" placeholder="Ingresa tu Correo electronico">
+        </div>
+        <div class="borde campo ">
+          <label>Mensaje</label>
+          <textarea class="input-text" placeholder="Dejanos tus comentarios"></textarea>
+        </div>
+      </div> <!--!.contenedor-campos-->
+        <!--<div class="campo">
+          <input type="radio"> <!-- Tipos: checkbox, radio, email, rel, mail, number
+            los formularios segun el tipo tienen validacion a sus propiedades-->
+        <div class="borde alinear-dereha flex">
+          <input class="boton w-sm-100" type="submit" value="Mandalo crack">
+        </div>
+      </fieldset>
+    </form> <!--!seccion de formulario-->
+  </section>
+</main><!--!.contenedor.sombra-->
+      
+
+
+
+      
+
+
+
+    
+  
+
+
+  <footer>
+    <!--*ultima parte de la pagina donde se puede poner copyrigth-->
+    <p>Estudio tecnico especializados-CCH</p>
+  </footer>
+</body>
+
+</html>
